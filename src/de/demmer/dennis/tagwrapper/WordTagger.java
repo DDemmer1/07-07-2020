@@ -11,7 +11,7 @@ public class WordTagger {
 	
 	
 	public String wrapWord(String word, String text, String tag) {
-		return wrapper.wrap(text, word, tag);
+		return wrapper.wrap(word,text,tag);
 	}
 	
 	
